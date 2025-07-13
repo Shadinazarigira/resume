@@ -3,10 +3,6 @@ html, body {
     text-align: right;
 }
 
-.selector {
-    font-family: 'نام-فونت', سایر-فونت‌ها, sans-serif;
-}
-
 .header {
     width: 100vw;
     height: 5vh;
@@ -21,30 +17,30 @@ html, body {
 }
 
 .B1 {
-    width: 25vw;
+    width: 20vw;
     height: 95vh;
-    background-color: antiquewhite;
+    background-color:#EEEEEE;
     float: right;
 }
 
 .resume {
-    width: 50vw;
+    width: 60vw;
     height: 95vh;
     float: right;
 }
 
 .B2 {
-    width: 25vw;
+    width: 20vw;
     height: 95vh;
     float: right;
-    background-color: antiquewhite;
+    background-color:#EEEEEE;
 }
 
 .menu {
-    width: 18vw;
+    width: 20vw;
     height: 95vh;
     float: right;
-    background-color: midnightblue;
+    background-color:#566D7E;
 }
 
 .circle {
@@ -59,12 +55,13 @@ html, body {
     justify-content: center;
     padding-top: 5vh;
     height: 28vh;
-    background-color: black;
+    background-color: #566D7E;
+
 }
 
 .name {
     height: 10vh;
-    padding-top:0vh;
+    background-color: #566D7E;
 }
 
 #shadi{
@@ -82,12 +79,12 @@ html, body {
 }
 .contacts {
     height: 28vh;
-    background-color: black;
+    background-color: #566D7E;
 }
 .rec1{
-    background-color: tomato;
+    background-color: #36454F;
     height: 4vh;
-    width: 18vw;
+    width: 20vw;
 }
 #con{
     font-size: large;
@@ -107,18 +104,17 @@ html, body {
     height: 24vh;
 }
 .rec2{
-    background-color: tomato;
+    background-color: #36454F;
     height: 4vh;
-    width: 18vw;
+    width: 20vw;
 }
 #lan{
     font-size: large;
      display: flex;
     justify-content: center;
-    color: antiquewhite;
 }
 .father {
-    width: 32vw;
+    width: 40vw;
     height: 95vh;
     float: left;
 }
