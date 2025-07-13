@@ -1,7 +1,8 @@
-
 html, body {
     font-family: "B Koodak";
     text-align: right;
+    padding: 0px;
+    margin: 0px;
 }
 
 .selector {
@@ -24,14 +25,13 @@ html, body {
 .B1 {
     width: 25vw;
     height: 95vh;
-    background-color: lightseagreen;
+    background-color: antiquewhite;
     float: right;
 }
 
 .resume {
     width: 50vw;
     height: 95vh;
-    background-color: antiquewhite;
     float: right;
 }
 
@@ -39,18 +39,19 @@ html, body {
     width: 25vw;
     height: 95vh;
     float: right;
-    background-color: lightseagreen;
+    background-color: antiquewhite;
 }
 
 .menu {
     width: 18vw;
     height: 95vh;
     float: right;
+    background-color: midnightblue;
 }
 
 .circle {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     background-color: #555;
     border-radius: 50%;
 }
@@ -59,17 +60,50 @@ html, body {
     display: flex;
     justify-content: center;
     padding-top: 5vh;
-    height: 33vh;
+    height: 30vh;
     background-color: black;
 }
 
 .name {
-    height: 19vh;
+    height: 10vh;
 }
+#shadi{
+    font-family: "B Titr";
+    font-size: larger;
+     display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
+#pos{
+    font-size: medium;
+     display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
+#mycan{
 
+}
 .contacts {
     height: 19vh;
     background-color: black;
+}
+.rec1{
+    background-color: tomato;
+    height: 4vh;
+    width: 18vw;
+}
+#con{
+    font-size: large;
+     display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
+.social-icons a {
+  padding: 20px;
+  transition: opacity 0.3s ease;
+}
+.social-icons a:hover {
+  opacity: 0.7;
 }
 
 .lang {
@@ -106,39 +140,11 @@ html, body {
     background-color: DarkKhaki;
 }
 
-#tahsil {
+#a {
     rotate: 270deg;
     direction: rtl;
-    padding-right: 50px;
-    height: 19vh;
-}
-
-#tajrobe {
-    rotate: 270deg;
-    direction: rtl;
-    height: 19vh;
-    padding-right: 30px;
-}
-
-#maharat {
-    rotate: 270deg;
-    direction: rtl;
-    padding-right: 60px;
-    height: 19vh;
-}
-
-#govahi {
-    rotate: 270deg;
-    direction: rtl;
-    padding-right: 5px;
-    height: 19vh;
-}
-
-#dastavard {
-    rotate: 270deg;
-    direction: rtl;
-    padding-right: 30px;
-    height: 19vh;
+    justify-content: center;
+    padding-right: 2vw;
 }
 
 .rectangle1 {
