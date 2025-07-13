@@ -6,7 +6,7 @@ html, body {
 .header {
     width: 100vw;
     height: 5vh;
-    background-color: gray;
+    background-color: #EEEEEE;
     padding: 0;
 }
 
@@ -19,7 +19,7 @@ html, body {
 .B1 {
     width: 20vw;
     height: 95vh;
-    background-color:#EEEEEE;
+    background-color: #EEEEEE;
     float: right;
 }
 
@@ -33,14 +33,14 @@ html, body {
     width: 20vw;
     height: 95vh;
     float: right;
-    background-color:#EEEEEE;
+    background-color: #EEEEEE;
 }
 
 .menu {
     width: 20vw;
     height: 95vh;
     float: right;
-    background-color:#566D7E;
+    background-color: #566D7E;
 }
 
 .circle {
@@ -64,55 +64,81 @@ html, body {
     background-color: #566D7E;
 }
 
-#shadi{
+#shadi {
     font-family: "B Titr";
     font-size: larger;
-     display: flex;
+    display: flex;
     justify-content: center;
     color: antiquewhite;
 }
-#pos{
+
+#pos {
     font-size: medium;
-     display: flex;
+    display: flex;
     justify-content: center;
     color: antiquewhite;
 }
+
 .contacts {
     height: 28vh;
     background-color: #566D7E;
 }
-.rec1{
+
+.rec1 {
     background-color: #36454F;
     height: 4vh;
     width: 20vw;
 }
-#con{
+
+#con {
     font-size: large;
-     display: flex;
+    display: flex;
     justify-content: center;
     color: antiquewhite;
 }
-.social-icons a {
-  padding: 20px;
-  transition: opacity 0.3s ease;
+
+#linkedin {
+    margin: 0 10px;
+    font-size:25px;
+
 }
+#gmail{
+    margin: 0 10px;
+    font-size: 20px;
+}
+#github{
+        margin: 0 10px;
+    font-size: 20px;
+}
+#orcid{
+        margin: 0 10px;
+    font-size: 20px;
+}
+.social-icons a {
+    padding: 20px;
+    transition: opacity 0.3s ease;
+}
+
 .social-icons a:hover {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 .lang {
     height: 24vh;
 }
-.rec2{
+
+.rec2 {
     background-color: #36454F;
     height: 4vh;
     width: 20vw;
 }
-#lan{
+
+#lan {
     font-size: large;
-     display: flex;
+    display: flex;
     justify-content: center;
 }
+
 .father {
     width: 40vw;
     height: 95vh;
@@ -123,17 +149,19 @@ html, body {
     height: 19vh;
     background-color: DarkKhaki;
 }
+
 hr {
-  display: block;
-  margin-top: 0em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: solid;
-  border-width: 2px;
-    width:80%;
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 2px;
+    width: 80%;
     color: violet;
 }
+
 .experiance {
     height: 19vh;
 }
