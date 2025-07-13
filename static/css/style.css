@@ -1,8 +1,6 @@
 html, body {
     font-family: "B Koodak";
     text-align: right;
-    padding: 0px;
-    margin: 0px;
 }
 
 .selector {
@@ -60,13 +58,15 @@ html, body {
     display: flex;
     justify-content: center;
     padding-top: 5vh;
-    height: 30vh;
+    height: 28vh;
     background-color: black;
 }
 
 .name {
     height: 10vh;
+    padding-top:0vh;
 }
+
 #shadi{
     font-family: "B Titr";
     font-size: larger;
@@ -80,11 +80,8 @@ html, body {
     justify-content: center;
     color: antiquewhite;
 }
-#mycan{
-
-}
 .contacts {
-    height: 19vh;
+    height: 28vh;
     background-color: black;
 }
 .rec1{
@@ -107,9 +104,19 @@ html, body {
 }
 
 .lang {
-    height: 19vh;
+    height: 24vh;
 }
-
+.rec2{
+    background-color: tomato;
+    height: 4vh;
+    width: 18vw;
+}
+#lan{
+    font-size: large;
+     display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
 .father {
     width: 32vw;
     height: 95vh;
@@ -119,9 +126,18 @@ html, body {
 .eduacation {
     height: 19vh;
     background-color: DarkKhaki;
-    border-top-style: dotted;
 }
-
+hr {
+  display: block;
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 2px;
+    width:80%;
+    color: violet;
+}
 .experiance {
     height: 19vh;
 }
