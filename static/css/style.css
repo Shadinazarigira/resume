@@ -1,0 +1,194 @@
+
+html, body {
+    font-family: "B Koodak";
+    text-align: right;
+}
+.selector {
+    font-family: 'نام-فونت', سایر-فونت‌ها, sans-serif;
+}
+
+.header {
+    width: 100vw;
+    height: 5vh;
+    background-color: gray;
+    padding: 0;
+}
+
+.background {
+    width: 100vw;
+    height: 95vh;
+    padding: 0;
+}
+
+.B1{
+    width: 25vw;
+    height: 95vh;
+    background-color: lightseagreen;
+    float: right;
+}
+.resume{
+    width: 50vw;
+    height: 95vh;
+    background-color: antiquewhite;
+    float: right;
+}
+.B2{
+    width: 25vw;
+    height: 95vh;
+    float: right;
+    background-color: lightseagreen;
+}
+.menu {
+    width: 18vw;
+    height: 95vh;
+    float: right;
+}
+
+.circle {
+  height: 250px;
+  width: 250px;
+  background-color: #555;
+  border-radius: 50%;
+}
+.img{
+    display:flex;
+    justify-content: center;
+    padding-top:5vh;
+    height: 33vh;
+    background-color: black;
+}
+.name{
+    height: 19vh;
+}
+.contacts{
+    height: 19vh;
+        background-color: black;
+}
+.lang{
+    height: 19vh;
+}
+.father {
+    width: 32vw;
+    height: 95vh;
+    float: left;
+}
+.eduacation {
+    height: 19vh;
+    background-color: DarkKhaki;
+    border-top-style:dotted;
+}
+.experiance {
+    height: 19vh;
+}
+
+.skills {
+    height: 19vh;
+    background-color: DarkKhaki;
+}
+.certifications {
+    height:19vh;
+}
+
+.achivements {
+    height: 19vh;
+    background-color: DarkKhaki;
+}
+
+#tahsil {
+    rotate: 270deg;
+    direction: rtl;
+    padding-right: 50px;
+    height:19vh;
+}
+
+#tajrobe {
+    rotate: 270deg;
+    direction: rtl;
+    height:19vh;
+    padding-right: 30px;
+}
+
+#maharat {
+    rotate: 270deg;
+    direction: rtl;
+    padding-right: 60px;
+    height:19vh;
+}
+
+#govahi {
+    rotate: 270deg;
+    direction: rtl;
+    padding-right: 5px;
+        height:19vh;
+}
+
+#dastavard {
+    rotate: 270deg;
+    direction: rtl;
+    padding-right: 30px;
+        height:19vh;
+}
+
+.rectangle1 {
+    background-color: tomato;
+    height:19vh;
+    width: 3vw;
+    float: right;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 14%;
+}
+
+.rectangle2 {
+    background-color: orange;
+    height:19vh;
+    width: 3vw;
+    float: right;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 14%;
+}
+
+.rectangle3 {
+    background-color: mediumseagreen;
+    height:19vh;
+    width: 3vw;
+    float: right;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 14%;
+}
+
+.rectangle4 {
+    background-color: slateblue;
+    height:19vh;
+    width: 3vw;
+    float: right;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 14%;
+}
+
+.rectangle5 {
+    background-color: violet;
+    height:19vh;
+    width: 3vw;
+    float: right;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 14%;
+}
+
+.container img {
+    height:19vh;
+    width: 3vw;
+    border-radius: 50%;
+    margin-left: 140px;
+    margin-top: 75px;
+    animation: rotate 10s linear infinite;
+}
+
+/*@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
